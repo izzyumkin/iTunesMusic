@@ -14,7 +14,6 @@
 		C464E8A425F76C7F005219AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C464E8A325F76C7F005219AB /* Assets.xcassets */; };
 		C464E8A725F76C7F005219AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C464E8A525F76C7F005219AB /* LaunchScreen.storyboard */; };
 		C464E8B025F76F9C005219AB /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C464E8AF25F76F9C005219AB /* MainTabBarController.swift */; };
-		C464E8B325F76FB8005219AB /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C464E8B225F76FB8005219AB /* SearchTableViewController.swift */; };
 		C464E8BF25F7ABA2005219AB /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C464E8BE25F7ABA2005219AB /* SearchResponse.swift */; };
 		C464E8C225F7B449005219AB /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C464E8C125F7B449005219AB /* NetworkService.swift */; };
 		C464E8DF25F7B9BC005219AB /* SearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C464E8D825F7B9BC005219AB /* SearchPresenter.swift */; };
@@ -46,7 +45,6 @@
 		C464E8A625F76C7F005219AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C464E8A825F76C7F005219AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C464E8AF25F76F9C005219AB /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
-		C464E8B225F76FB8005219AB /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
 		C464E8BE25F7ABA2005219AB /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 		C464E8C125F7B449005219AB /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		C464E8D825F7B9BC005219AB /* SearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPresenter.swift; sourceTree = "<group>"; };
@@ -102,12 +100,11 @@
 			children = (
 				C464E89A25F76C7B005219AB /* AppDelegate.swift */,
 				C464E89C25F76C7B005219AB /* SceneDelegate.swift */,
-				C464E89E25F76C7C005219AB /* ViewController.swift */,
 				C464E8AF25F76F9C005219AB /* MainTabBarController.swift */,
+				C49603FA2621CB520014E6F5 /* Library */,
 				C464E8D625F7B960005219AB /* Services */,
 				C464E8C425F7B8AD005219AB /* Search */,
 				C464E8F625F8CB22005219AB /* Helpers */,
-				C464E8B225F76FB8005219AB /* SearchTableViewController.swift */,
 				C464E8A325F76C7F005219AB /* Assets.xcassets */,
 				C464E8A525F76C7F005219AB /* LaunchScreen.storyboard */,
 				C464E8A825F76C7F005219AB /* Info.plist */,
@@ -166,6 +163,14 @@
 				C464E8BE25F7ABA2005219AB /* SearchResponse.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		C49603FA2621CB520014E6F5 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				C464E89E25F76C7C005219AB /* ViewController.swift */,
+			);
+			path = Library;
 			sourceTree = "<group>";
 		};
 		C4E59739260733340037F8E9 /* FooterView */ = {
@@ -332,7 +337,6 @@
 				C464E8DF25F7B9BC005219AB /* SearchPresenter.swift in Sources */,
 				C464E8BF25F7ABA2005219AB /* SearchResponse.swift in Sources */,
 				C464E8E325F7B9BC005219AB /* SearchViewController.swift in Sources */,
-				C464E8B325F76FB8005219AB /* SearchTableViewController.swift in Sources */,
 				C464E8E025F7B9BC005219AB /* SearchWorker.swift in Sources */,
 				C464E8B025F76F9C005219AB /* MainTabBarController.swift in Sources */,
 				C464E89D25F76C7B005219AB /* SceneDelegate.swift in Sources */,
