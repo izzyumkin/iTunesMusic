@@ -36,8 +36,8 @@ class MainTabBarController: UITabBarController {
         setupTrackDetailView()
         
         viewControllers = [
-            generateViewController(rootViewController: viewController, image: #imageLiteral(resourceName: "library"), title: "Library"),
-            generateViewController(rootViewController: searchViewController, image: #imageLiteral(resourceName: "search"), title: "Search")
+            generateViewController(rootViewController: searchViewController, image: #imageLiteral(resourceName: "search"), title: "Search"),
+            generateViewController(rootViewController: viewController, image: #imageLiteral(resourceName: "library"), title: "Library")
         ]
         
     }

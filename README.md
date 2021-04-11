@@ -1,7 +1,7 @@
 # iTunesMusic
 
-An educational app for previewing iTunes music.
+Учебное приложение для воспроизведения iTunes музыки.
 
-Used by: iTunes Search API, Alamofire, SDWebImage.
+Использовалось: iTunes Search API, Alamofire, SDWebImage.
 
-Architecture: Clean Swift.
+Архитектура: Clean Swift.
